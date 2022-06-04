@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    background: black;
+}
+.body{
+    width: 100%;
+    height: 120px;
+    background-color: #191a1b;
+    display: flex;
+    flex-direction: row;
+    
+}
+#logo{
+    width: 70px;
+    height: 70px; 
+    border-radius: 50%;
+    background: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.input{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    border: solid white;
+    background: #101113;
+    color:  white;
+    margin-left: 15px;
+    margin-top: 40px;
+    
+}
+
+.btn{
+    width: 25px;
+    height: 25px;
+    border-radius:3px;
+    border: solid white;
+    background: #101113;
+    font-size: 15px white;
+    margin-left: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
+
+.cardOne{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+button{
+    background: black;
+    color: white;
+}
+
+.cardThree{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mainCard{
+   width: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 8px;
+    font-style: normal;
+    color: white;
+
+}
+.userCard{
+   font-size: 10px;
+   color: white;
+   text-align: left;
+   line-height: 0%;
+  
+}
